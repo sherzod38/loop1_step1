@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.eot');
+  src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Regular.woff') format('woff'),
+    url('Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Black.eot');
+  src: url('Roboto-Black.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Black.woff') format('woff'),
+    url('Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold.eot');
+  src: url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Bold.woff') format('woff'),
+    url('Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Medium.eot');
+  src: url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-Medium.woff') format('woff'),
+    url('Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #85A5D4;
+}
+
+/* h1, h2, h3, h4, h5, h6, p {
+ margin-left: 0;
+ margin-right: 0;
+ padding-left: 0;
+ padding-right: 0;
+} */
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loop {
+  width: 800px;
+  margin-top: 100px;
+  padding: 40px 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.loop img {
+  width: 58px;
+  height: 68px;
+  object-fit: contain;
+}
+
+.step {
+  /* display: flex; */
+  text-align: center;
+  padding: 20px;
+
+}
+span {
+  font-size: 30px;
+}
+sup, sub {
+  font-size: 15px;
+}
+.step h3, sup, span, sub {
+  color: #5A76D7;
+}
+.step p {
+  color: #ABABAB;
+}
+.step:hover {
+  background-color: #F5F5F5;
+  padding: 20px;
+}
